@@ -20,6 +20,7 @@ archive files. Files and directories ignored by `.gitignore` are also skipped.
 
 Given a directory structure like:
 
+```text
 project/
 ├── .gitignore
 ├── README.md
@@ -32,8 +33,8 @@ project/
 ├── images/
 │   └── logo.png
 └── archive/
-└── data.zip
-
+    └── data.zip
+```
 
 Running `catree project` will output:
 
