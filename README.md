@@ -60,7 +60,7 @@ Running `catree project` will output:
 ```
 
 
-Files such as `images/logo.png` and `archive/data.zip` are not ignored as
+Files such as `images/logo.png` and `archive/data.zip` are ignored as
 unprintable. Files and directories listed in `.gitignore` are also skipped.
 
 ---
